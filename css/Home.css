@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+   
+}
+
+
+/* .Container{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+     width: 100%;
+    height: 10%;
+
+       
+    
+} */
+    
+  
+
+    .Container{
+        display: flex;
+        background-color: rgb(241, 241, 241);
+        width: 100%;
+        height: 40%;
+        /* margin-bottom: -3em; */
+        /* position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0; */
+
+    }
+       
+   
+   
+   
+
+
+
+.left-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 20%;
+
+    
+
+}
+
+.left-nav h3{
+    margin-left:0.3em;
+} 
+
+
+.left-nav p{
+    margin-top: 2px;
+} 
+
+
+
+.right-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-left: auto;
+    padding: 0.5em;
+
+  
+}
+
+
+.right-nav div{
+    border-bottom: 2px #f1f1f1;
+    height: 128.5%;
+    padding-top: 0.8em;
+}
+
+/* navigate */
+.right-nav div:hover{
+    border-bottom:2px solid blue;
+
+}
+
+
+
+
+.right-nav >div li{
+    list-style: none;
+    
+
+}
+
+
+.right-nav li a {
+    text-decoration: none;
+}
+ 
+
+/* End header */
+
+.wrapper{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/Picture/CourseOnlinePic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* border:2px solid green; */
+    margin-bottom:0 ;
+    position: absolute;
+    bottom: -25px;
+    
+}
+
+.section-left{
+    
+    width: 28vw;
+    height: 60vh;
+    background-color: rgb(255, 250, 205,0.7);
+    text-align: center;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;  
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 8px,8px,7,#8888;
+    
+
+}
+
+#left-img{
+    height: 30%;
+    background-image: url(/Picture/Coding.jpg);
+    background-size:100% 120%;
+    background-repeat: no-repeat;
+    margin: 2px;
+    
+
+}
+
+
+#left-describe{
+
+    margin-top: -1em;
+    width: 100%;
+    
+
+}
+
+#left-describe ul li a{
+    text-decoration: none;
+
+}
+
+
+
+
+/* Animation */
+#left-describe ul li{
+    transition: text-transform .5s;
+
+}
+
+#left-describe ul li:hover {
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: khaki;
+}
+
+
+
+
+.section-right{
+    width: 28vw;
+    height: 60vh;
+    overflow: hidden;
+    background-color: rgb(255, 250, 205,0.7);
+    text-align:start;
+    border-radius: 10px;
+      
+}
+
+#right-describe{
+    width: 100%;
+    height: 100%;
+    padding-left: 1.5em; 
+    line-height: 2em;
+
+}
+
+#right-describe > h2{
+    margin-top: -1em;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-left: -1em;
+    box-shadow: 0 10px #888888;
+    overflow: hidden;
+   
+}
+
+#right-describe > ul {
+    margin-top: 1em;
+}
+
+#right-describe > ul li a {
+    text-decoration: none;
+}
+
+.checked{
+    color: orange;
+    
+}
+
+ul li:nth-child(1) span:nth-of-type(1){
+    margin-left: 2.3em;
+    
+}
+
+ul li:nth-child(2) span:nth-of-type(1){
+    margin-left: 3.5em;
+    
+}
+
+ul li:nth-child(3) span:nth-of-type(1){
+    margin-left: 0.3em;
+    
+}
+
+ul li:nth-child(4) span:nth-of-type(1){
+    margin-left: 5.1em;
+    
+}
+
+ul li:nth-child(5) span:nth-of-type(1){
+    margin-left: 5.3em;
+    
+}
+
+ul li:nth-child(6) span:nth-of-type(1){
+    margin-left: 3.3em;
+    
+}
+
+ul li:nth-child(7) span:nth-of-type(1){
+    margin-left: 4.5em;
+    
+}
+
+ul li:nth-child(8) span:nth-of-type(1){
+    margin-left: 8em;
+    
+}
+
+
+
+#right-describe ul li{
+    list-style:none ;
+
+}
+
+/* End section */
+
+.footer{
+    background:rgba(26, 24, 24,0.8);
+    width:100%;
+    height:10vh;
+    line-height: 1.5em;
+    margin-bottom: -5em;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footer p {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 12px;
+    padding-left: 0.5em;
+    color: #fff;
+}
+
+.footer > span{
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

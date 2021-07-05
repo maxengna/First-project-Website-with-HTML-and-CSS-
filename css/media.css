@@ -1,0 +1,298 @@
+@media screen and (min-width:350px) and (max-width:550px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+    }
+    
+   .Container{
+        display: flex;
+        background-color: rgb(241, 241, 241);
+        width: 100vw;
+        margin-bottom: 1em;
+       
+      }
+    
+    .left-nav h3{
+        margin-left:0.3em;
+        font-size: 1em;
+    } 
+
+    .left-nav p{
+        margin-left:0.5em;
+        margin-top: 0.3em;
+        font-size: 0.8em;
+    } 
+
+    .right-nav{
+        display: flex;
+        font-size: 1em;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        height: 30%;
+        margin-left: -4.5em;
+        
+    }
+
+
+    .right-nav li a:hover {
+        background-color: greenyellow;
+        padding: 3px;
+        border-radius: 3px;
+    }
+
+   
+    
+    /* End Head */
+
+
+ 
+    
+    .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/Picture/CourseOnlinePic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+    
+
+    
+    }
+    
+    .section-left{
+    
+        width: 90%;
+        height: 60%;
+        background-color: rgb(255, 250, 205,0.7);
+        text-align: center;
+        line-height: 1.3em;
+        display: flex;
+        flex-direction: column;  
+        border-radius: 10px; 
+        overflow: hidden; 
+        box-shadow: 8px,8px,7,#8888;
+        justify-content: space-evenly;
+        margin-top: 0;
+        
+      }
+
+
+    #left-img{
+        height: 25%;
+        background-image: url(/Picture/Coding.jpg);
+        background-size:100% 120%;
+        background-repeat: no-repeat;
+        margin-top: -2em;
+        
+        
+    
+    }
+
+    #left-describe{
+        width: 100%;
+        
+        
+    }
+
+    #left-describe > h2{
+        font-size: 16px;
+        margin-top: -2em;
+    }
+
+    #left-describe ul{
+        margin-bottom: -2em;
+     }
+    
+    /* Animation */
+
+    #left-describe ul li{
+        transition: text-transform .5s;
+        line-height: 1.3em;
+
+    }
+    
+    #left-describe ul li:hover {
+        text-transform: uppercase;
+        font-size: 20px;
+        background-color: khaki;
+    }
+    
+    
+ 
+    .section-right{
+        width: 90%;
+        height: 90%;
+        overflow: hidden;
+        background-color: rgb(255, 250, 205,0.7);
+        text-align:start;
+        border-radius: 10px;
+        margin-top: 0.2em;
+        line-height: 0.2em;
+        margin-bottom: -5em;
+
+    
+  }
+
+  #right-describe h2{
+      font-size: 18px;
+      margin-top: -1em;
+      height: 20%;
+      position: relative;
+      bottom: 10px;
+     
+    }  
+
+    #right-describe ul{
+        margin-top: -0.2em;
+        line-height: 1.9em;
+    }  
+
+}
+
+
+/* End for mobile screen */
+
+@media screen and (min-width:560px) and (max-width:800px){
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+    }
+
+
+    
+    .Container{
+        height: 8vh;
+    }
+    
+    .right-nav{
+        display: flex;
+        font-size: 1em;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        height: 30%;
+        margin-left: -5.5em;
+        
+    }
+
+
+    .right-nav li a:hover {
+        padding: 3px;
+        border-radius: 3px;
+        transform: rotate(30deg);
+        transition:0.5s;
+    } 
+    
+   
+/* End Header */
+
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/Picture/CourseOnlinePic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: space-evenly;
+        padding-top: -1em;
+        position: relative;
+        top: 0em;
+       
+    
+        
+        }
+
+    .section-left{
+    
+        width: 80%;
+        height: 45%;
+        background-color: rgb(255, 250, 205,0.7);
+        text-align: center;
+        line-height: 0.6em;
+        display: flex;
+        flex-direction: column;  
+        border-radius: 10px; 
+        box-shadow: 8px,8px,7,#8888;
+        justify-content: space-evenly;
+        margin-top: 0.2em;
+    }
+
+
+    #left-img{
+        height: 25%;
+        background-image: url(/Picture/Coding.jpg);
+        background-size:100% 120%;
+        background-repeat: no-repeat;
+        margin-top: -2em;
+        
+    }
+
+    #left-describe{
+        width: 100%;
+        height: 65%;
+        margin-bottom:-2em;
+        
+    }
+
+    #left-describe > h2{
+        margin-top: -0.5em;
+    
+    
+    }
+
+    #left-describe ul{
+        margin-top:0.5em;
+        line-height: 1.5em;
+    
+    }    
+
+    .section-right{
+        width: 80%;
+        height: 50vh;
+        overflow: hidden;
+        background-color: rgb(255, 250, 205,0.7);
+        border-radius: 10px;
+        padding-left: 2.8em;
+        margin-top: 0.6em;
+        margin-bottom: 0.5em;   
+    }
+ 
+    #right-describe > h2{
+        margin-top: -1em;
+        text-align: center;
+        border-bottom: 1px solid;
+        margin-left: -3em;
+        box-shadow: 0 10px #888888;
+        overflow: hidden;
+        
+    }
+
+    #right-describe ul {
+        line-height: 1.5em;
+        margin: 0.5em;
+        margin-left: -1em; 
+        width: 90%;
+        
+    }
+
+    .footer div:nth-of-type(1) p  {
+        margin-top: 0.3em;
+        margin-left: 0em;
+    }
+
+
+}
+    
